@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main(){
+  cout<<"enter the first number"<<endl;
+  double num1;
+  cin>>num1;
+  cout<<"enter the second number "<<endl;
+  double num2;
+  cin>>num2;
+  char operation;
+  cout<<"choose the operation you want to apply"<<endl;
+  cin>>operation;
+  switch(operation){
+    case'+':cout<<"ans:"<<num1+num2<<endl;
+     break;
+    case'-':cout<<"ans:"<<num1-num2<<endl;
+    break;
+   case'/':cout<<"ans:"<<num1/num2<<endl;
+    break;
+    case'*':cout<<"ans:"<<num1*num2<<endl;
+    break;
+    
+
+    default:cout<<"ERROR:enter a valid operation"<<endl;
+  }
+  
+  
+}
